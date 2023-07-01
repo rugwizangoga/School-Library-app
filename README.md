@@ -77,8 +77,10 @@ Example commands:
 
 ### Usage
 
-To run the project, execute the queries in the files
-ruby main.rb
+To run the project, execute the queries in the files run:
+```sh
+  $ ruby main.rb
+```
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
