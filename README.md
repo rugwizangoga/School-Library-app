@@ -71,15 +71,15 @@ Install Ruby
 Example commands:
 
 ```sh
-  cd my-folder
-  git clone  https://github.com/rugwizangoga/School-Library-app.git
+ $ cd my-folder
+ $ git clone  https://github.com/rugwizangoga/School-Library-app.git
 ```
 
 ### Usage
 
 To run the project, execute the queries in the files run:
 ```sh
-  $ ruby main.rb
+ $ ruby main.rb
 ```
 
 
