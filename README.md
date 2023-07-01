@@ -26,9 +26,9 @@
   - [📝 License ](#-license-)
 
 
-### 📖 School Library app <a name="about-project"></a>
+# 📖 School Library app <a name="about-project"></a>
 
-**School Library app** This application serves as a comprehensive tool for managing the library of a University. With this app, you can efficiently record and organize information about books, students, teachers, and borrowing records. Our goal is to provide a beautiful and well-organized system that simplifies the management of the library with the help of <a href="https://www.rubyguides.com/ruby-tutorial/object-oriented-programming/">Ruby OOP</a>.
+**School Library app:** This application serves as a comprehensive tool for managing the library of a University. With this app, you can efficiently record and organize information about books, students, teachers, and borrowing records. Our goal is to provide a beautiful and well-organized system that simplifies the management of the library with the help of <a href="https://www.rubyguides.com/ruby-tutorial/object-oriented-programming/">Ruby OOP</a>.
 
 ### 🛠️ Built With <a name="built-with"></a>
 
