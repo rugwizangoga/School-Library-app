@@ -76,7 +76,6 @@ Example commands:
   cd my-folder
   git clone  https://github.com/rugwizangoga/School-Library-app.git
 ```
--
 
 ### Usage
 
