@@ -67,8 +67,6 @@ In order to run this project you need:
 ### Setup
 
 Install Ruby
-Go to github and find the repository Morse-code-decoder
-
 
 Example commands:
 
