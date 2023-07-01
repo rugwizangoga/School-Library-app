@@ -30,6 +30,10 @@
 
 **School Library app:** This application serves as a comprehensive tool for managing the library of a University. With this app, you can efficiently record and organize information about books, students, teachers, and borrowing records. Our goal is to provide a beautiful and well-organized system that simplifies the management of the library with the help of <a href="https://www.rubyguides.com/ruby-tutorial/object-oriented-programming/">Ruby OOP</a>.
 
+- The app is delived from this class diagram:
+
+![class diagram](uml_class_diagram.png)
+
 ### 🛠️ Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -86,7 +90,7 @@ To run the project, execute the queries in the files run:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-###👥 Authors <a name="authors"></a>
+### 👥 Authors <a name="authors"></a>
 
 👤 **IRADUKUNDA Pacific Rugwizangoga**
 
