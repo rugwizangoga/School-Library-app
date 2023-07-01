@@ -34,7 +34,7 @@ class App
   end
 
   def create_person
-    puts 'Do you want to create a student (1) or a teacher (2)? [input the number]:'
+    print 'Do you want to create a student (1) or a teacher (2)? [input the number]: '
     type = gets.chomp
     case type
     when '1'
@@ -47,11 +47,11 @@ class App
   end
 
   def create_teacher
-    puts 'Age:'
+    print 'Age: '
     age = gets.chomp
-    puts 'Name:'
+    print 'Name: '
     name = gets.chomp
-    puts 'Specialization:'
+    print 'Specialization: '
     specialization = gets.chomp
     parent_permission = true
     @people.push Teacher.new(age, specialization, parent_permission: parent_permission, name: name)
@@ -59,23 +59,21 @@ class App
   end
 
   def create_student
-    puts 'Name:'
+    print 'Name: '
     name = gets.chomp
-    puts 'Age:'
-    age = gets.chomp
-    puts 'Has parent permission? [y/n]:'
+    print 'Age: '
+    age = gets.chomp.to_i
+    print 'Has parent permission? [y/n]: '
     permission = gets.chomp.downcase
     parent_permission = permission == 'y'
-    puts 'Classroom:'
-    classroom = gets.chomp
-    @people.push Student.new(age, classroom, parent_permission: parent_permission, name: name)
+    @people.push Student.new(age, parent_permission: parent_permission, name: name)
     puts 'Person created successfully'
   end
 
   def create_book
-    puts 'Title:'
+    print 'Title: '
     title = gets.chomp
-    puts 'Author:'
+    print 'Author: '
     author = gets.chomp
     book = Book.new(title, author)
     @books.push(book)
@@ -93,7 +91,7 @@ class App
     person_index = gets.chomp.to_i
     renter = @people[person_index]
 
-    puts 'Date (YYYY-MM-DD):'
+    print 'Date (YYYY-MM-DD): '
     date = gets.chomp
 
     if renter.can_use_services?
@@ -105,7 +103,7 @@ class App
   end
 
   def rental_list
-    puts 'ID of person:'
+    print 'ID of person: '
     renter_id = gets.chomp.to_i
     renter = @people.find { |person| person.id == renter_id }
 
