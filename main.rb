@@ -18,7 +18,6 @@ class Menu
     print 'Enter number: '
   end
 
-  # handle_option
   def handle_option(option)
     case option
     when '1' then @app.display_book_list
@@ -31,7 +30,6 @@ class Menu
       puts 'That is not a valid option'
     end
   end
-
 end
 
 def main
