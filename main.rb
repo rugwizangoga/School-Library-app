@@ -19,6 +19,19 @@ class Menu
   end
 
   # handle_option
+  def handle_option(option)
+    case option
+    when '1' then @app.display_book_list
+    when '2' then @app.display_people_list
+    when '3' then @app.create_person
+    when '4' then @app.create_book
+    when '5' then @app.create_rental
+    when '6' then @app.rental_list
+    else
+      puts 'That is not a valid option'
+    end
+  end
+
 end
 
 def main

@@ -103,6 +103,11 @@ To run the project, execute the queries in the files run:
 - Twitter: [@DanielKigozi15](https://twitter.com/@DanielKigozi15)
 - LinkedIn: [daniel-kigozi-375182208/](https://www.linkedin.com/in/daniel-kigozi-375182208/)
 
+👤 **Harshika Govind**
+
+- GitHub: [@harshi0102](https://github.com/harshi0102)
+- Linkedin: [@harshikagovind](https://www.linkedin.com/in/harshikagovind/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
